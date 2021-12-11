@@ -15,23 +15,10 @@ const openinghoursFeatures = [
 
 export default function Prices() {
   return (
-    <div className="bg-gray-500">
-      <div className="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
-        <div className="text-center">
-          <h2 className="text-2xl font-semibold leading-6 tracking-wider text-gray-300 uppercase">Welcome to North Down Barbell Club</h2>
-          <p className="mt-2 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">
-          Strength & Conditioning Personal Training
-          </p>
-          {/* <p className="max-w-4xl mx-auto mt-3 text-xl text-gray-300 sm:mt-5 sm:text-2xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam eligendi quos odit doloribus
-            molestiae voluptatum.
-          </p> */}
-        </div>
-      </div>
-
-      <div className="pb-12 mt-16 bg-white lg:mt-20 lg:pb-20">
+    <div className="mt-8 overflow-hidden rounded-xl ">
+      <div className="pb-12 mt-16 lg:mt-20 lg:pb-20">
         <div className="relative z-0">
-          <div className="absolute inset-0 bg-gray-900 h-5/6 lg:h-2/3" />
+          <div className="absolute inset-0 h-5/6 lg:h-2/3" />
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div className="relative lg:grid lg:grid-cols-7">
               <div className="max-w-md mx-auto lg:mx-0 lg:max-w-none lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3">

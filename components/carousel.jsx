@@ -21,7 +21,7 @@ class Carousel extends Component {
             : this.state.currentSlide + 1;
         this.setState({ currentSlide: newSlide });
       }
-    }, 3000);
+    }, 3800);
   }
 
   nextSlide = () => {
@@ -47,7 +47,7 @@ class Carousel extends Component {
   render() {
     return (
       <div className="mt-8 mb-8">
-        <div className="relative flex max-w-lg overflow-hidden h-72">
+        <div className="relative flex max-w-6xl overflow-hidden">
           <AiOutlineLeft
             onClick={this.prevSlide}
             className="absolute left-0 text-3xl text-white cursor-pointer inset-y-1/2"
