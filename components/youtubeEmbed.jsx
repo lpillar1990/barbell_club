@@ -10,8 +10,8 @@ const YoutubeEmbed = function ({ embedId }) {
     <div className="video-responsive">
 
       <div className="mb-10 text-center">
-        <h2 className="text-3xl font-semibold leading-6 tracking-wider text-white uppercase">Welcome to North Down Barbell Club</h2>
-        <p className="mt-2 text-3xl font-extrabold text-red-800 sm:text-4xl lg:text-5xl">
+        <h2 className="pb-5 text-4xl font-semibold leading-6 tracking-wider text-white uppercase sm:text-3xl lg:text-4xl">North Down Barbell Club</h2>
+        <p className="mt-2 text-3xl font-extrabold text-red-700 sm:text-4xl lg:text-5xl">
           Strength & Conditioning Personal Training
         </p>
       </div>

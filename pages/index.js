@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import Carousel from '../components/carousel';
 import YoutubeEmbed from '../components/youtubeEmbed';
 import Image from 'next-images';
+import GoogleMap from '../components/maps';
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         <YoutubeEmbed embedId="kf0Af6A5wW8" />
         <Prices/>
         <Carousel />
-        <img src="/images/googlemap-image.png" key="/images/googlemap-image.png" width="900" height="300" />
+        <GoogleMap />
       </main>
     <Footer />
     </div>

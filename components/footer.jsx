@@ -49,7 +49,7 @@ export default function Footer() {
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
           {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+            <a key={item.name} href={item.href} className="text-red-500 hover:text-gray-500">
               <span className="sr-only">{item.name}</span>
               <item.icon className="w-12 h-12" aria-hidden="true" />
             </a>
