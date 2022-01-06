@@ -10,7 +10,7 @@ import GoogleMap from '../components/maps';
 export default function Home() {
   return (
 
-    <div className="flex flex-col items-center justify-center min-h-screen py-0 bg-cover -mt-36 bg-barbell">
+    <div className="flex flex-col items-center justify-center min-h-screen py-0 bg-contain -mt-36 bg-barbell">
       <Head>
         <Example />
         <title>North Down Barbell Club</title>
