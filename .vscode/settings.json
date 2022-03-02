@@ -4,5 +4,8 @@
     "editor.formatOnSave": true,
     "[javascript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
     }
 }

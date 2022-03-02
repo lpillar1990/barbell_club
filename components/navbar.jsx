@@ -10,18 +10,20 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-          <div className="flex justify-between py-10 mx-auto max-w-7xl">
-            <div className="flex items-center h-16 ">
-        <Image src={Logo} alt="North Down Barbell Club logo" width={300} height={160} priority />
-      </div>
-      <div className="flex items-center space-x-4">
-                <a className="text-red-500 hover:text-gray-500">
+<nav class="bg-black border-gray-200 px-2 sm:px-4 dark:bg-gray-800  flex justify-between">
+  <div class="container flex flex-wrap items-center mx-auto">
+        <Image src={Logo} alt="North Down Barbell Club logo" width={230} height={120} priority />
+        </div>
+    <div class=" w-full md:w-auto flex my-5" id="mobile-menu">
+      <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+      <a className="text-red-500 cursor-pointer hover:text-gray-500">
           <BsFacebook className="w-11 h-11" href="/https://www.facebook.com/NorthDownBarbellClub" />
         </a>
-        <a className="text-red-500 hover:text-gray-500">
+        <a className="text-red-500 cursor-pointer hover:text-gray-500">
         <BsInstagram className="w-12 h-12" href="/https://www.facebook.com/NorthDownBarbellClub" />
             </a>
-      </div>
-          </div>
+      </ul>
+  </div>
+</nav>
   );
 }
