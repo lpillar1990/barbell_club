@@ -10,10 +10,12 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-          <div className="py-10 max-w-7xl ">
-            <div className="flex items-center justify-between h-16 ">
+          <div className="flex justify-between py-10 mx-auto max-w-7xl">
+            <div className="flex items-center h-16 ">
         <Image src={Logo} alt="North Down Barbell Club logo" width={300} height={160} priority />
-        <a className="text-red-500 hover:text-gray-500">
+      </div>
+      <div className="flex items-center space-x-4">
+                <a className="text-red-500 hover:text-gray-500">
           <BsFacebook className="w-11 h-11" href="/https://www.facebook.com/NorthDownBarbellClub" />
         </a>
         <a className="text-red-500 hover:text-gray-500">
