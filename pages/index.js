@@ -13,7 +13,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen py-0 bg-contain -mt-36 bg-barbell">
       <Head>
         <Example />
-        <title>North Down Barbell Club</title>
+        <title>South Down Barbell Club</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center justify-center w-full mt-64 text-center px-50">

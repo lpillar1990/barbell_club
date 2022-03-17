@@ -11,18 +11,20 @@ function classNames(...classes) {
 export default function Example() {
   return (
 <nav class="bg-black border-gray-200 px-2 sm:px-4 dark:bg-gray-800  flex justify-between">
-  <div class="container flex flex-wrap items-center mx-auto">
+  <div class="container flex flex-wrap items-center pr-13">
         <Image src={Logo} alt="North Down Barbell Club logo" width={230} height={120} priority />
         </div>
     <div class=" w-full md:w-auto flex my-5" id="mobile-menu">
-      <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-      <a className="text-red-500 cursor-pointer hover:text-gray-500">
-          <BsFacebook className="w-11 h-11" href="/https://www.facebook.com/NorthDownBarbellClub" />
-        </a>
+      <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium px-4">
+          <a className="text-red-500 cursor-pointer hover:text-gray-500">
+          <BsFacebook className="w-10 h-10"/>
+          </a>
+        </ul>
+        <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium px-4">
         <a className="text-red-500 cursor-pointer hover:text-gray-500">
-        <BsInstagram className="w-12 h-12" href="/https://www.facebook.com/NorthDownBarbellClub" />
-            </a>
-      </ul>
+          <BsInstagram className="w-10 h-10" href="/https://www.facebook.com/NorthDownBarbellClub" />
+          </a>
+        </ul>
   </div>
 </nav>
   );
